@@ -13,11 +13,6 @@ $('#slider-inner').slick({
 
 
 
-$( ".pidgeon-close" ).click(function() {
-  $( this ).parent().fadeToggle( "slow", "linear" );
-  event.preventDefault();
-  event.stopPropagation();
-});
 
 $( ".pidgeon" ).click(function() {
   $( ".pidgeon-overlay" ).fadeToggle( "slow", "linear" );
@@ -25,21 +20,18 @@ $( ".pidgeon" ).click(function() {
   event.stopPropagation();
 });
 
-
-
-$( ".cheese-close" ).click(function() {
-  $( this ).parent().fadeToggle( "slow", "linear" );
+$( ".cat" ).click(function() {
+  $( ".cat-overlay" ).fadeToggle( "slow", "linear" );
   event.preventDefault();
   event.stopPropagation();
 });
+
 
 $( ".cheese" ).click(function() {
   $( ".cheese-overlay" ).fadeToggle( "slow", "linear" );
   event.preventDefault();
   event.stopPropagation();
 });
-
-
 
 
 $( ".close-icon" ).click(function() {

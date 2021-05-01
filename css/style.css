@@ -257,15 +257,23 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   position: relative;
 }
 
-#barn02-inner .pidgeon-overlay {
+#barn02-inner .pidgeon-overlay, #barn02-inner .cat-overlay  {
   display: none;
   position: absolute;
   z-index: 1;
   width: 45%;
-  right: 2rem;
-  top: 2rem;
   border: 1px solid black;
   background: #fff;
+}
+
+#barn02-inner .pidgeon-overlay  {
+  right: 2rem;
+  top: 2rem;
+}
+
+#barn02-inner .cat-overlay  {
+  left: 2rem;
+  top: 2rem;
 }
 
 .stuff02 {
@@ -274,11 +282,11 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   border-top: 1px solid black;
 }
 
-#barn02-inner .pidgeon-overlay p:last-child {
+#barn02-inner .pidgeon-overlay p:last-child, #barn02-inner .cat-overlay p:last-child {
   margin-bottom: 0;
 }
 
-#barn02-inner .pidgeon-overlay p:first-child {
+#barn02-inner .pidgeon-overlay p:first-child, #barn02-inner .cat-overlay p:first-child  {
   margin-top: 0;
 }
 
@@ -293,25 +301,19 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   transition: border .3s ease-in-out;
 }
 
-#barn02-inner .pidgeon:hover {
-	border: 5px solid red;
+#barn02-inner .cat {
+  position: absolute;
+  z-index: 1;
+  width: 13%;
+  height: 15%;
+  left: 5%;
+  bottom: 30%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
 }
 
-.pidgeon-close {
-  position: absolute;
-  top: .5rem;
-  right: .5rem;
-  display:block;
-  box-sizing:border-box;
-  width:1rem;
-  height:1rem;
-  border-width:1px;
-  border-style: solid;
-  border-color:transparent;
-  border-radius:100%;
-  background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%);
-  background-color:white;
-  transition: all 0.3s ease;
+#barn02-inner .pidgeon:hover, #barn02-inner .cat:hover  {
+	border: 5px solid red;
 }
 
 /* Barn 03*/
@@ -361,23 +363,6 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 
 #barn03-inner .cheese:hover {
 	border: 5px solid red;
-}
-
-.cheese-close {
-  position: absolute;
-  top: .5rem;
-  right: .5rem;
-  display:block;
-  box-sizing:border-box;
-  width:1rem;
-  height:1rem;
-  border-width:1px;
-  border-style: solid;
-  border-color:transparent;
-  border-radius:100%;
-  background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%);
-  background-color:white;
-  transition: all 0.3s ease;
 }
 
 /* media queries */
