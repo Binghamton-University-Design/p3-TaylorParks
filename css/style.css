@@ -138,7 +138,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 
 */
 
-/* Image Map */
+/* Image Map Home Page*/
 
 #map {
 	overflow: hidden;
@@ -165,10 +165,54 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 	transition: border .3s ease-in-out;
 }
 
+#map-inner .map2 {
+  position: absolute;
+  z-index: 1;
+  width: 5%;
+  height: 10%;
+  left: 52%;
+  top: 47%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#map-inner .map3 {
+  position: absolute;
+  z-index: 1;
+  width: 13%;
+  height: 10%;
+  left: 24%;
+  top: 42%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#map-inner .map4 {
+  position: absolute;
+  z-index: 1;
+  width: 15%;
+  height: 12%;
+  left: 78%;
+  top: 43%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
 #map-inner .map1:hover {
 	border: 5px solid red;
 }
 
+#map-inner .map2:hover {
+  border: 5px solid red;
+}
+
+#map-inner .map3:hover {
+  border: 5px solid red;
+}
+
+#map-inner .map4:hover {
+  border: 5px solid red;
+}
 /* Tree */
 
 #tree {
@@ -306,8 +350,8 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   z-index: 1;
   width: 13%;
   height: 15%;
-  left: 5%;
-  bottom: 30%;
+  left: 9%;
+  bottom: 23%;
   border: 5px solid transparent;
   transition: border .3s ease-in-out;
 }
