@@ -21,12 +21,12 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 /* Masthead */
 
 #masthead {
-	background-color: #b6b6b6;
+	background-color: rgb(54,56,76);
 	padding: 0 1rem;
 }
 
 #nav {
-	background-color: pink;
+	background-color: rgb(243,111,99);
 }
 
 #logo {
@@ -179,8 +179,8 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 #map-inner .map3 {
   position: absolute;
   z-index: 1;
-  width: 13%;
-  height: 10%;
+  width: 18%;
+  height: 12%;
   left: 24%;
   top: 42%;
   border: 5px solid transparent;
@@ -199,19 +199,19 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 }
 
 #map-inner .map1:hover {
-	border: 5px solid red;
+	border: 5px solid #f36f63;
 }
 
 #map-inner .map2:hover {
-  border: 5px solid red;
+  border: 5px solid #f36f63;
 }
 
 #map-inner .map3:hover {
-  border: 5px solid red;
+  border: 5px solid #f36f63;
 }
 
 #map-inner .map4:hover {
-  border: 5px solid red;
+  border: 5px solid #f36f63;
 }
 /* Tree */
 
@@ -266,7 +266,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 }
 
 #tree-inner .bird:hover {
-	border: 5px solid red;
+	border: 5px #f36f63;
 }
 
 .close-icon {
@@ -301,23 +301,40 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   position: relative;
 }
 
-#barn02-inner .pidgeon-overlay, #barn02-inner .cat-overlay  {
+#barn02-inner .pidgeon-overlay, #barn02-inner .cheese1-overlay, #barn02-inner .rabit-overlay  {
   display: none;
   position: absolute;
   z-index: 1;
   width: 45%;
-  border: 1px solid black;
+  border: 4px solid #f36f63;
   background: #fff;
 }
 
 #barn02-inner .pidgeon-overlay  {
+  background-color: rgb(247,225,220);
   right: 2rem;
   top: 2rem;
 }
 
-#barn02-inner .cat-overlay  {
-  left: 2rem;
-  top: 2rem;
+#barn02-inner .cheese1-overlay  {
+  background-color: rgb(247,225,220);
+  width: 45%;
+  right: 50%;
+  top: 30%;
+}
+
+#barn02-inner .cheese1-overlay img {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 2;
+}
+
+#barn02-inner .rabit-overlay  {
+  background-color: rgb(247,225,220);
+  width: 45%;
+  right: 20%;
+  top: 30%;
 }
 
 .stuff02 {
@@ -326,38 +343,49 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   border-top: 1px solid black;
 }
 
-#barn02-inner .pidgeon-overlay p:last-child, #barn02-inner .cat-overlay p:last-child {
+#barn02-inner .pidgeon-overlay p:last-child, #barn02-inner .cheese1-overlay p:last-child, #barn02-inner .rabit-overlay p:last-child {
   margin-bottom: 0;
 }
 
-#barn02-inner .pidgeon-overlay p:first-child, #barn02-inner .cat-overlay p:first-child  {
+#barn02-inner .pidgeon-overlay p:first-child, #barn02-inner .cheese1-overlay p:first-child, #barn02-inner .rabit-overlay p:first-child  {
   margin-top: 0;
 }
 
 #barn02-inner .pidgeon {
   position: absolute;
   z-index: 1;
-  width: 13%;
-  height: 10%;
-  left: 54%;
-  top: 30%;
+  width: 5%;
+  height: 6%;
+  left: 58%;
+  top: 32.3%;
   border: 5px solid transparent;
   transition: border .3s ease-in-out;
 }
 
-#barn02-inner .cat {
+#barn02-inner .cheese1 {
   position: absolute;
   z-index: 1;
-  width: 13%;
-  height: 15%;
-  left: 9%;
-  bottom: 23%;
+  width: 7%;
+  height: 9.5%;
+  left: 11%;
+  bottom: 25%;
   border: 5px solid transparent;
   transition: border .3s ease-in-out;
 }
 
-#barn02-inner .pidgeon:hover, #barn02-inner .cat:hover  {
-	border: 5px solid red;
+#barn02-inner .rabit {
+  position: absolute;
+  z-index: 1;
+  width: 7%;
+  height: 9.5%;
+  left: 88%;
+  bottom: 13%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#barn02-inner .pidgeon:hover, #barn02-inner .cheese1:hover, #barn02-inner .rabit:hover  {
+	border: 5px solid #f36f63;
 }
 
 /* Barn 03*/
@@ -365,19 +393,36 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   overflow: hidden;
 }
 
+#barn03 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 #barn03-inner {
   position: relative;
 }
 
-#barn03-inner .cheese-overlay {
+#barn03-inner .baby-overlay {
+  background-color: rgb(247,225,220);
   display: none;
   position: absolute;
   z-index: 1;
   width: 45%;
-  right: 2rem;
-  top: 2rem;
-  border: 1px solid black;
-  background: #fff;
+  right: 5%;
+  top: 20%;
+ border: 4px solid #f36f63;
+}
+
+#barn03-inner .bat-overlay {
+  background-color: rgb(247,225,220);
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 45%;
+  right: 50%;
+  top: 6%;
+  border: 4px solid #f36f63;
 }
 
 .stuff03 {
@@ -386,27 +431,217 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   border-top: 1px solid black;
 }
 
-#barn03-inner .cheese-overlay p:last-child {
+#barn03-inner .baby-overlay p:last-child, #barn03-inner .bat-overlay p:last-child {
   margin-bottom: 0;
 }
 
-#barn03-inner .cheese-overlay p:first-child {
+#barn03-inner .baby-overlay p:first-child, #barn03-inner .bat-overlay p:first-child {
   margin-top: 0;
 }
 
-#barn03-inner .cheese {
+#barn03-inner .baby {
   position: absolute;
   z-index: 2;
-  width: 13%;
+  width: 4%;
+  height: 6%;
+  left: 42.2%;
+  top: 55%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#barn03-inner .bat {
+  position: absolute;
+  z-index: 2;
+  width: 7%;
+  height: 9%;
+  left: 20.3%;
+  top: 22%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#barn03-inner .baby:hover, #barn03-inner .bat:hover {
+	border: 5px solid #f36f63;
+}
+
+/* Bush 01*/
+#bush01 {
+  overflow: hidden;
+}
+
+#bush01 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#bush01-inner {
+  position: relative;
+}
+
+#bush01-inner .squirrel-overlay, #bush01-inner .robin-overlay,  #bush01-inner .blackbird-overlay {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 45%;
+  border: 1px solid black;
+  background: #fff;
+}
+
+#bush01-inner .squirrel-overlay {
+  background-color: rgb(247,225,220);
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 45%;
+  right: 50%;
+  top: 10%;
+ border: 4px solid #f36f63;
+}
+
+#bush01-inner .robin-overlay {
+  background-color: rgb(247,225,220);
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 45%;
+  right: 10%;
+  top: 5%;
+  border: 4px solid #f36f63;
+}
+
+#bush01-inner .blackbird-overlay {
+  background-color: rgb(247,225,220);
+  display: none;
+  position: absolute;
+  z-index: 1;
+ width: 45%;
+  right: 10%;
+  top: 5%;
+  border: 4px solid #f36f63;
+}
+
+.stuff04 {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid black;
+}
+
+#bush01-inner .squirrel-overlay p:last-child, #bush01-inner .robin-overlay p:last-child, #bush01-inner .blackbird-overlay p:last-child {
+  margin-bottom: 0;
+}
+
+#bush01-inner .squirrel-overlay p:first-child, #bush01-inner .robin-overlay p:first-child,  #bush01-inner .blackbird-overlay p:first-child {
+  margin-top: 0;
+}
+
+#bush01-inner .squirrel {
+  position: absolute;
+  z-index: 2;
+  width: 8%;
   height: 10%;
-  left: 60%;
+  left: 28%;
+  top: 29%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#bush01-inner .robin {
+  position: absolute;
+  z-index: 2;
+  width: 6%;
+  height: 8%;
+  left: 67%;
   top: 40%;
   border: 5px solid transparent;
   transition: border .3s ease-in-out;
 }
 
-#barn03-inner .cheese:hover {
-	border: 5px solid red;
+#bush01-inner .blackbird {
+  position: absolute;
+  z-index: 2;
+  width: 6%;
+  height: 6%;
+  left: 76%;
+  top: 56%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#bush01-inner .squirrel:hover, #bush01-inner .robin:hover, #bush01-inner .blackbird:hover {
+  border: 5px solid #f36f63;
+}
+
+/* House 01*/
+#map {
+  overflow: hidden;
+}
+
+#map-inner {
+  position: relative;
+}
+
+#map-inner .kaya-overlay {
+  background-color: rgb(247,225,220);
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 45%;
+  right: 10%;
+  top: 20%;
+  border: 4px solid #f36f63;
+}
+
+#map-inner .pidgeon02-overlay {
+  background-color: rgb(247,225,220);
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 45%;
+  left: 10%;
+  top: 30%;
+  border: 4px solid #f36f63;
+}
+
+.stuff02 {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid black;
+}
+
+#map-inner .kaya-overlay p:last-child, #map-inner .pidgeon02-overlay p:last-child {
+  margin-bottom: 0;
+}
+
+#map-inner .kaya-overlay p:first-child, #map-inner .pidgeon02-overlay p:first-child {
+  margin-top: 0;
+}
+
+#map-inner .kaya {
+  position: absolute;
+  z-index: 2;
+  width: 16%;
+  height: 15%;
+  left: 55%;
+  top: 55%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#map-inner .pidgeon02 {
+  position: absolute;
+  z-index: 2;
+  width: 9%;
+  height: 9%;
+  left: 1.5%;
+  top: 13%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#map-inner .kaya:hover, #map-inner .pidgeon02:hover {
+  border: 5px solid #f36f63;
 }
 
 /* media queries */

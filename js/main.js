@@ -20,15 +20,27 @@ $( ".pidgeon" ).click(function() {
   event.stopPropagation();
 });
 
-$( ".cat" ).click(function() {
-  $( ".cat-overlay" ).fadeToggle( "slow", "linear" );
+$( ".cheese1" ).click(function() {
+  $( ".cheese1-overlay" ).fadeToggle( "slow", "linear" );
+  event.preventDefault();
+  event.stopPropagation();
+});
+
+$( ".rabit" ).click(function() {
+  $( ".rabit-overlay" ).fadeToggle( "slow", "linear" );
+  event.preventDefault();
+  event.stopPropagation();
+});
+
+$( ".bat" ).click(function() {
+  $( ".bat-overlay" ).fadeToggle( "slow", "linear" );
   event.preventDefault();
   event.stopPropagation();
 });
 
 
-$( ".cheese" ).click(function() {
-  $( ".cheese-overlay" ).fadeToggle( "slow", "linear" );
+$( ".baby" ).click(function() {
+  $( ".baby-overlay" ).fadeToggle( "slow", "linear" );
   event.preventDefault();
   event.stopPropagation();
 });
@@ -42,6 +54,37 @@ $( ".close-icon" ).click(function() {
 
 $( ".bird" ).click(function() {
   $( ".bird-overlay" ).fadeToggle( "slow", "linear" );
+  event.preventDefault();
+  event.stopPropagation();
+});
+
+
+$( ".squirrel" ).click(function() {
+  $( ".squirrel-overlay" ).fadeToggle( "slow", "linear" );
+  event.preventDefault();
+  event.stopPropagation();
+});
+
+$( ".robin" ).click(function() {
+  $( ".robin-overlay" ).fadeToggle( "slow", "linear" );
+  event.preventDefault();
+  event.stopPropagation();
+});
+
+$( ".blackbird" ).click(function() {
+  $( ".blackbird-overlay" ).fadeToggle( "slow", "linear" );
+  event.preventDefault();
+  event.stopPropagation();
+});
+
+$( ".pidgeon02" ).click(function() {
+  $( ".pidgeon02-overlay" ).fadeToggle( "slow", "linear" );
+  event.preventDefault();
+  event.stopPropagation();
+});
+
+$( ".kaya" ).click(function() {
+  $( ".kaya-overlay" ).fadeToggle( "slow", "linear" );
   event.preventDefault();
   event.stopPropagation();
 });
