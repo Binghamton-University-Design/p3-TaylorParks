@@ -213,6 +213,40 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 #map-inner .map4:hover {
   border: 5px solid #f36f63;
 }
+
+.footer-home {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 47%;
+  background-color: #f36f63;
+  color: white;
+  text-align: center;
+}
+
+.button-home {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #36384c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  text-decoration: none;
+}
+
+.button-home:hover {background-color: #2A8F8F}
+
+.button-home:active {
+  background-color: #9BB8B4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 /* Tree */
 
 #tree {
@@ -388,6 +422,39 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 	border: 5px solid #f36f63;
 }
 
+.footer-barn02 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #f36f63;
+  color: white;
+  text-align: center;
+}
+
+.button-barn02 {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #36384c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  text-decoration: none;
+}
+
+.button-barn02:hover {background-color: #2A8F8F}
+
+.button-barn02:active {
+  background-color: #9BB8B4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 /* Barn 03*/
 #barn03 {
   overflow: hidden;
@@ -463,6 +530,39 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 
 #barn03-inner .baby:hover, #barn03-inner .bat:hover {
 	border: 5px solid #f36f63;
+}
+
+.footer-barn03 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #f36f63;
+  color: white;
+  text-align: center;
+}
+
+.button-barn03 {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #36384c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  text-decoration: none;
+}
+
+.button-barn03:hover {background-color: #2A8F8F}
+
+.button-barn03:active {
+  background-color: #9BB8B4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /* Bush 01*/
@@ -573,6 +673,39 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   border: 5px solid #f36f63;
 }
 
+.footer-bush01 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #f36f63;
+  color: white;
+  text-align: center;
+}
+
+.button-bush01 {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #36384c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  text-decoration: none;
+}
+
+.button-bush01:hover {background-color: #2A8F8F}
+
+.button-bush01:active {
+  background-color: #9BB8B4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 /* House 01*/
 #map {
   overflow: hidden;
@@ -642,6 +775,39 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 
 #map-inner .kaya:hover, #map-inner .pidgeon02:hover {
   border: 5px solid #f36f63;
+}
+
+.footer-house01 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #f36f63;
+  color: white;
+  text-align: center;
+}
+
+.button-house01 {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #36384c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  text-decoration: none;
+}
+
+.button-house01:hover {background-color: #2A8F8F}
+
+.button-house01:active {
+  background-color: #9BB8B4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /* media queries */
