@@ -7,7 +7,14 @@
 }
 
 body {
+  background-image: url(../images/clouds.jpg);
 	margin: 0;
+}
+
+body img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 a:focus,button:focus,input:focus,textarea:focus {outline: none;}
@@ -90,53 +97,6 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 #thing-inner h1 {
   margin-top: 0;
 }
-
-/* Slider 
-
-#slider {
-  overflow: hidden;
-}
-
-#slider .prev, #slider .next {
-  position: absolute;
-  z-index: 2;
-  margin: 1rem;
-  font-size: 3em;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.prev {
-  left: 0;
-}
-
-.next {
-  right: 0;
-}
-
-.prev span, .next span {
-  cursor: pointer;
-  display: block;
-  background: #fff;
-}
-
-#slider-inner {
-
-}
-
-#slider .slide {
-
-}
-
-#slider img {
-  display: block;
-  height: auto;
-  width: 100%;
-}
-
-*/
 
 /* Image Map Home Page*/
 
@@ -810,6 +770,51 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   transform: translateY(4px);
 }
 
+/* Animals */
+
+#slider {
+  overflow: hidden;
+}
+
+#slider .prev, #slider .next {
+  position: absolute;
+  z-index: 2;
+  margin: 1rem;
+  font-size: 3em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.prev span, .next span {
+  cursor: pointer;
+  display: block;
+  background: #fff;
+}
+
+#slider-inner {
+
+}
+
+#slider .slide {
+
+}
+
+#slider img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
 /* media queries */
 
 @media all and (max-width: 699px) { 
@@ -828,8 +833,6 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   }
 
 }
-
-
 
 @media all and (min-width: 700px) { 
   
