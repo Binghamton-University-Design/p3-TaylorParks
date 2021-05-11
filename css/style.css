@@ -8,6 +8,8 @@
 
 body {
   background-image: url(../images/clouds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 	margin: 0;
 }
 
@@ -33,6 +35,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 }
 
 #nav {
+  padding:1em;
 	background-color: rgb(243,111,99);
 }
 
@@ -69,14 +72,14 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 }
 
 #nav .nav-menu a {
-  color: #000;
+  color: #36384c;
   text-decoration: none;
 }
 
 
 #nav .nav-menu a:hover {
 	transition: all .2s ease-in;
-    color: purple;
+  color: #f7e1dc;
  
 }
 
@@ -105,9 +108,10 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 }
 
 #map img{
-	width: 100%;
+	width: calc(100% - 6rem);
 	height: auto;
 	display: block;
+  padding: 3rem;
 }
 
 #map-inner {
@@ -146,8 +150,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   border: 5px solid transparent;
   transition: border .3s ease-in-out;
 }
-
-#map-inner .map4 {
+#house01-inner .map4 {
   position: absolute;
   z-index: 1;
   width: 15%;
@@ -170,7 +173,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   border: 5px solid #f36f63;
 }
 
-#map-inner .map4:hover {
+#house01-inner .map4:hover {
   border: 5px solid #f36f63;
 }
 
@@ -179,7 +182,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 47%;
+  height: 20%;
   background-color: #f36f63;
   color: white;
   text-align: center;
@@ -280,13 +283,15 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   transition: all 0.3s ease;
 }
 
+
 /* Barn 02*/
 #barn02 {
   overflow: hidden;
 }
 
 #barn02 img {
-  width: 100%;
+  width: calc(100% - 2rem);
+  padding: 1rem;
   height: auto;
   display: block;
 }
@@ -421,7 +426,8 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 }
 
 #barn03 img {
-  width: 100%;
+  width: calc(100% - 2rem);
+  padding: 1rem;
   height: auto;
   display: block;
 }
@@ -531,7 +537,8 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 }
 
 #bush01 img {
-  width: 100%;
+  width: calc(100% - 2rem);
+  padding: 1rem;
   height: auto;
   display: block;
 }
@@ -667,15 +674,22 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 }
 
 /* House 01*/
-#map {
+#house01 {
   overflow: hidden;
 }
 
-#map-inner {
+#house01-inner {
   position: relative;
 }
 
-#map-inner .kaya-overlay {
+#house01 img {
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  height: auto;
+  display: block;
+}
+
+#house01-inner .kaya-overlay {
   background-color: rgb(247,225,220);
   display: none;
   position: absolute;
@@ -686,7 +700,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   border: 4px solid #f36f63;
 }
 
-#map-inner .pidgeon02-overlay {
+#house01-inner .pidgeon02-overlay {
   background-color: rgb(247,225,220);
   display: none;
   position: absolute;
@@ -703,15 +717,15 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   border-top: 1px solid black;
 }
 
-#map-inner .kaya-overlay p:last-child, #map-inner .pidgeon02-overlay p:last-child {
+#house01-inner .kaya-overlay p:last-child, #house01-inner .pidgeon02-overlay p:last-child {
   margin-bottom: 0;
 }
 
-#map-inner .kaya-overlay p:first-child, #map-inner .pidgeon02-overlay p:first-child {
+#house01-inner .kaya-overlay p:first-child, #house01-inner .pidgeon02-overlay p:first-child {
   margin-top: 0;
 }
 
-#map-inner .kaya {
+#house01-inner .kaya {
   position: absolute;
   z-index: 2;
   width: 16%;
@@ -722,18 +736,18 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   transition: border .3s ease-in-out;
 }
 
-#map-inner .pidgeon02 {
+#house01-inner .pidgeon02 {
   position: absolute;
   z-index: 2;
   width: 9%;
   height: 9%;
-  left: 1.5%;
+  left: 3%;
   top: 13%;
   border: 5px solid transparent;
   transition: border .3s ease-in-out;
 }
 
-#map-inner .kaya:hover, #map-inner .pidgeon02:hover {
+#house01-inner .kaya:hover, #house01-inner .pidgeon02:hover {
   border: 5px solid #f36f63;
 }
 
@@ -769,6 +783,25 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+/* About */
+
+#about-banner {
+  background: #f36f63;
+  margin: 1em;
+  padding: 1em;
+}
+
+.about-wrapper {
+  background: #f7e1dc;
+  
+}
+
+#about-nav .about-text{
+  text-align: center;
+}
+
+
 
 /* Animals */
 
